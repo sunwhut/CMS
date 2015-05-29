@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>责任编辑界面</title>
+<link href="default.css" rel="stylesheet" type="text/css" media="screen" />
+<meta charset="UTF-8">
+</head>
+<body>
+<div id="header">
+<h1>责任编辑界面</h1>
+<form name="changePassword" method="get" >
+	<p>修改密码<input type="text" name="change">
+	<input type="submit" value="确认">
+	<input type="button" value="获取权限">
+	</p>
+</form>
+</div>
+
+<div id="menu">
+</div>
+
+<div id="editer">
+<form name="news" method="post" action="addNews.jsp">
+	<p>新闻时间<input type="text" name="time">
+	</p></br>
+
+	<hr align="center" size=2 width=770 color=#ffa500/>
+	
+	</br><p>
+	新闻类别<input type="text" name="kinds">
+	</p></br>
+
+	<hr align="center" size=2 width=770 color=#ffa500/>
+
+	</br><p>
+	新闻标题<input type="text" name="title">
+	</p></br>
+
+	<hr align="center" size=2 width=770 color=#ffa500/>
+
+	</br><p>
+	新闻内容
+	</br><textarea name="content" rows=50 cols=80>
+	</textarea>
+	<input type="submit" value="确认发布">
+	</p>
+</form>
+</div>
+
+</body>
+</html>
